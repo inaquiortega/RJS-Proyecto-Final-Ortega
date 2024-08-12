@@ -1,0 +1,39 @@
+@import url("https://use.typekit.net/bzy5lat.css");
+
+.navbar-color {
+  background-color: #fce2c5;
+}
+
+span {
+  color: rgb(236, 7, 103);
+}
+
+body {
+  font-family: "felt-tip-roman", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+}
+
+.mono-card {
+  width: 50rem !important;
+}
+
+.mono-card-img {
+  width: 28%;
+  height: auto;
+}
+
+.mono-card-text-category {
+  font-size: 16px;
+  color: rgb(226, 162, 51);
+}
+
+.mono-card-text-product {
+  font-size: 20px;
+  color: rgb(0, 162, 227);
+}
+
+.mono-card-text-pricing {
+  font-size: 18px;
+  color: rgb(85, 85, 85);
+}
