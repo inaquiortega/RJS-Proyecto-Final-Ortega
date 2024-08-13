@@ -41,7 +41,7 @@ export const ItemListContainer = () => {
                   {i.pricing}
                 </Card.Text>
                 <Link to={`/item/${i.id}`}>
-                  <Button variant="primary">Comprar</Button>
+                  <Button className="mono-button">¡LO QUIERO!</Button>
                 </Link>
               </Card.Body>
             </Card>

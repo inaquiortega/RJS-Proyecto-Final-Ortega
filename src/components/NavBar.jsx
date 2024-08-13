@@ -21,16 +21,16 @@ export const NavBar = () => {
           <Nav.Link as={NavLink} to="/" className="mx-2">
             Home
           </Nav.Link>
-          <Nav.Link as={NavLink} to="/category/bolsos" className="mx-2">
+          <Nav.Link as={NavLink} to="/category/Bolsos" className="mx-2">
             Bolsos
           </Nav.Link>
-          <Nav.Link as={NavLink} to="/category/baberos" className="mx-2">
+          <Nav.Link as={NavLink} to="/category/Baberos" className="mx-2">
             Baberos
           </Nav.Link>
-          <Nav.Link as={NavLink} to="/category/mantas" className="mx-2">
+          <Nav.Link as={NavLink} to="/category/Mantas" className="mx-2">
             Mantas
           </Nav.Link>
-          <Nav.Link as={NavLink} to="/category/accesorios" className="mx-2">
+          <Nav.Link as={NavLink} to="/category/Accesorios" className="mx-2">
             Accesorios
           </Nav.Link>
         </Nav>
