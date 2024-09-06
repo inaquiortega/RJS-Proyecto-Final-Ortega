@@ -8,7 +8,7 @@ export const ItemCount = ({ onAdd, stock }) => {
   };
 
   const handleDecrease = () => {
-    if (count > 1) setCount((prev) => prev + 1);
+    if (count > 1) setCount((prev) => prev - 1);
   };
 
   const handleAdd = () => {
@@ -18,11 +18,23 @@ export const ItemCount = ({ onAdd, stock }) => {
 
   return (
     <>
-      <button onClick={handleIncrease}>+</button>
-      <span>{count}</span>
-      <button onClick={handleDecrease}>-</button>
+      <button
+        className="monkey-button mono-button-increase"
+        onClick={handleIncrease}
+      >
+        +
+      </button>
+      <span> {count} </span>
+      <button
+        className="monkey-button mono-button-decrease"
+        onClick={handleDecrease}
+      >
+        -
+      </button>
       <br />
-      <button onClick={handleAdd}>Comprar</button>
+      <button className="monkey-button mono-button-add" onClick={handleAdd}>
+        AGREGAR AL CARRITO
+      </button>
     </>
   );
 };
